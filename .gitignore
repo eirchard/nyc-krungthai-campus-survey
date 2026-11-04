@@ -1,0 +1,20 @@
+# Never publish personal records, credentials, or installation state
+.local/
+private/
+.clasp.json
+**/.clasp.json
+**/Config.gs
+*.env
+.env*
+*.csv
+*.CSV
+*.xlsx
+*.xls
+*.ods
+*.zip
+*.log
+node_modules/
+.DS_Store
+# Exception: safe header-only user template in the public site
+!site/krungthai_user_template.xlsx
+!docs/krungthai_user_template.xlsx
